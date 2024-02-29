@@ -27,6 +27,10 @@ a {
     cursor: pointer;
 }
 
+i {
+    padding-left: 0.5rem;
+}
+
 nav {
     list-style-type: none;
     margin: 0;
@@ -121,19 +125,6 @@ main {
     box-shadow: 0px 5px 18px rgba(6, 6, 7, 0.6);
 }
 
-.arrow {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 0.2rem;
-    margin-left: 0.5rem;
-}
-
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
-
 .btn:hover {
     transform: scale(1.05);
 }
@@ -189,3 +180,22 @@ main {
     font-size: 3rem;
     color: #291c5a;
 }
+
+
+/* Projects page styling */
+
+.project-info h3 {
+    position: relative;
+    top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.project-title {
+    position: relative;
+    top: 2rem;
+}
+
+#projects img {
+    width: 20rem;
+}
+
