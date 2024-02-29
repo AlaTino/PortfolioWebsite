@@ -1,0 +1,156 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+a {
+    cursor: pointer;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    font-weight: 700
+}
+
+.navigation {
+    list-style: none;
+    margin-left: auto;
+}
+
+.navigation-item {
+    float: left;
+}
+
+.navigation-item a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navigation-item a:hover {
+    background-color: #F1D5BD;
+    transition: background-color 0.15s ease-in;
+}
+
+.navigation-item a:active {
+    background-color: #F1D5BD;
+    transition: background-color 0.2s ease-in-out;
+    border-bottom: 0.2rem solid black;
+}
+
+.navigation-item .active-page {
+    border-bottom: 0.2rem solid black;
+}
+
+main {
+    display: block;
+    position: relative;
+    top: 5rem;
+}
+
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.about-me-text h3 {
+    line-height: 0.8;
+    font-size: 2rem;
+}
+
+.about-me-text h4 {
+    line-height: 0.8;
+    font-size: 1.5rem;
+}
+
+.about-me-text .btn {
+    cursor: pointer;
+    margin-top: 1rem;
+    position: absolute;
+    border-radius: 4em;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    transition: 0.5s;
+    color: #fff;
+    background: #000000;
+    box-shadow: 0px 5px 18px rgba(6, 6, 7, 0.6);
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: translateY(6px);
+}
+
+.btn span {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;  
+}
+
+.profile img {
+    position: relative;
+    top: 3rem;
+    max-width: 15rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#textField {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    word-spacing: 0.1rem;
+}
